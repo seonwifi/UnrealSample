@@ -1,0 +1,1 @@
+call "C:\Program Files\Epic Games\UE_5.7\Engine\Build\BatchFiles\RunUAT.bat"  BuildCookRun -help > UAT_Help.txt

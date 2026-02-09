@@ -1,0 +1,55 @@
+# Visual Studio & IDE Files
+.vs/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.user
+*.code-workspace
+.vscode/
+
+# Unreal Engine - Core folders to ignore
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+ChunkInstall/
+Package/
+PatchFiles/
+
+# Builds (패키징된 빌드 결과물)
+Build/
+!Build/Config/
+!Build/Script/
+!Build/Android/
+!Build/IOS/
+
+# Plugins (플러그인 내부의 불필요한 파일)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Config (로컬 전용 설정 제외)
+Config/DefaultEngine.ini.bak
+Config/DefaultGame.ini.bak
+Config/DefaultInput.ini.bak
+
+# Starter Content (선택 사항: 스타터 콘텐츠를 포함하지 않으려면 주석 해제)
+# Content/StarterContent/
+
+# MacOS / OS X specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python (if using Python scripting)
+__pycache__/
+*.py[cod]
+
+# 7. 기타 백업 파일
+*.bak
+*.tmp
